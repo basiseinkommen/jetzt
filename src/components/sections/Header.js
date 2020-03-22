@@ -25,7 +25,7 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <iframe title='Basiseinkommen' width="560" height="315" src="https://www.youtube.com/embed/jAl2wGPzu6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title='Basiseinkommen' width="560" height="315" src="https://www.youtube.com/embed/L2WGTjp2hlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Art>
             <Text>
               <h1>
