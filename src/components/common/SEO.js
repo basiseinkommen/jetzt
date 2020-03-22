@@ -2,9 +2,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'Ein Basiseinkommen für alle während der Corona Krise',
+  description: 'Ein Basiseinkommen als Rettungsprogramm für alle Menschen in Deutschland während der Corona-Krise',
   title: 'Basiseinkommen',
-  url: '',
+  url: 'https://basiseinkommen.github.io/jetzt/',
   author: 'basiseinkommen',
   keywords: ['basiseinkommen', 'corona', 'jetztBE'],
   img: '',

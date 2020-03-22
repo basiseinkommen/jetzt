@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 
 import { Container } from '@components/global';
-import ExternalLink from '@common/ExternalLink';
 
 const Header = () => (
   <StaticQuery
@@ -27,21 +25,15 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid} />
+              <iframe title='Basiseinkommen' width="560" height="315" src="https://www.youtube.com/embed/jAl2wGPzu6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Art>
             <Text>
               <h1>
-                Fast in
-                <br />
-                every way
-                <br />
-                that matters
+                Basiseinkommen jetzt!
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
-                </StyledExternalLink>
+              Ein Basiseinkommen als Rettungsprogramm für alle Menschen in Deutschland während der Corona-Krise.
               </p>
             </Text>
           </Grid>
@@ -53,10 +45,10 @@ const Header = () => (
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.primary};
-  padding-top: 96px;
+  padding: 96px 0;
 
   @media (max-width: ${props => props.theme.screen.md}) {
-    padding-top: 128px;
+    padding: 128px 0;
   }
 `;
 
@@ -95,15 +87,6 @@ const Text = styled.div`
 
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
-  }
-`;
-
-const StyledExternalLink = styled(ExternalLink)`
-  color: inherit;
-  text-decoration: none;
-
-  &:hover {
-    color: ${props => props.theme.color.black.regular};
   }
 `;
 

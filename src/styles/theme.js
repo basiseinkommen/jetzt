@@ -1,7 +1,7 @@
 const theme = {
   font: {
-    primary: `'Prata', serif`,
-    secondary: `'Average', serif`,
+    primary: `'Arial', sans-serif`,
+    secondary: `'Arial', sans-serif`,
   },
   font_size: {
     small: 'font-size: 20px; line-height: 30px',
@@ -20,7 +20,7 @@ const theme = {
       light: '#564F62',
       regular: '#211E26',
     },
-    primary: '#8bd8ed',
+    primary: 'rgb(255, 236, 153)',
   },
   screen: {
     xs: '575px',

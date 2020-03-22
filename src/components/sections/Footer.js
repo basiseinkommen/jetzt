@@ -13,7 +13,7 @@ import TwitterIcon from '@static/icons/twitter.svg';
 const SOCIAL = [
   {
     icon: GithubIcon,
-    link: 'https://github.com/basiseinkommen/now',
+    link: 'https://github.com/basiseinkommen/jetzt',
   },
   {
     icon: InstagramIcon,
@@ -52,12 +52,12 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Basiseinkommen</h2>
               <span>
-                Illustrations by
+                Ein Projekt im Rahmen des
                 {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
+                <ExternalLink href="https://wirvsvirushackathon.org/">
+                  #WirVsVirus Hackathon
                 </ExternalLink>
               </span>
             </Copyright>

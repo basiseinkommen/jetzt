@@ -59,7 +59,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>Basiseinkommen</Brand>
+          <Brand>#jetztBE</Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
