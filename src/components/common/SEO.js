@@ -2,13 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'Ein Basiseinkommen für alle während der Corona Krise',
+  title: 'Basiseinkommen',
   url: '',
-  author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  author: 'basiseinkommen',
+  keywords: ['basiseinkommen', 'corona', 'jetztBE'],
   img: '',
-  twitterId: '@ajayns_',
+  twitterId: '@basiseinkommen',
   facebookId: '',
 };
 

@@ -62,5 +62,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: 'now'
+  pathPrefix: 'jetzt'
 };
