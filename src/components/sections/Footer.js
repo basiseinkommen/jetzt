@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -62,6 +63,9 @@ const Footer = () => (
                 </ExternalLink>
               ))}
             </SocialIcons>
+            <div>
+              <Link to="/impressum">Impressum</Link>
+            </div>
           </StyledContainer>
         </FooterWrapper>
       </React.Fragment>
