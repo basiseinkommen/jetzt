@@ -25,7 +25,7 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <iframe title='Basiseinkommen' width="560" height="315" src="https://www.youtube.com/embed/L2WGTjp2hlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title='Basiseinkommen' src="https://www.youtube.com/embed/L2WGTjp2hlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Art>
             <Text>
               <h1>
@@ -54,7 +54,17 @@ const HeaderWrapper = styled.header`
 
 const Art = styled.figure`
   width: 100%;
+  height: 0;
+  padding-top: 56.25%;
   margin: 0;
+  position: relative;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+  }
 
   > div {
     width: 120%;
