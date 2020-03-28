@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { StaticQuery, graphql } from 'gatsby';
+import React from 'react'
+import styled from 'styled-components'
+import { StaticQuery, graphql } from 'gatsby'
 
-import { Container } from '@components/global';
+import { Container } from '@components/global'
 
 const Header = () => (
   <StaticQuery
@@ -25,15 +25,20 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <iframe title='Basiseinkommen' src="https://www.youtube.com/embed/L2WGTjp2hlY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe
+                title="Basiseinkommen"
+                src="https://www.youtube.com/embed/L2WGTjp2hlY"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </Art>
             <Text>
-              <h1>
-                Basiseinkommen jetzt!
-              </h1>
+              <h1>Basiseinkommen jetzt!</h1>
               <br />
               <p>
-              Ein Basiseinkommen als Rettungsprogramm für alle Menschen in Deutschland während der Corona-Krise.
+                Ein Basiseinkommen als Rettungsprogramm für alle Menschen in
+                Deutschland während der Corona-Krise.
               </p>
             </Text>
           </Grid>
@@ -41,7 +46,7 @@ const Header = () => (
       </HeaderWrapper>
     )}
   />
-);
+)
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.primary};
@@ -50,7 +55,7 @@ const HeaderWrapper = styled.header`
   @media (max-width: ${props => props.theme.screen.md}) {
     padding: 128px 0;
   }
-`;
+`
 
 const Art = styled.figure`
   width: 100%;
@@ -63,7 +68,7 @@ const Art = styled.figure`
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0;
+    top: 0;
   }
 
   > div {
@@ -74,7 +79,7 @@ const Art = styled.figure`
       width: 100%;
     }
   }
-`;
+`
 
 const Grid = styled.div`
   display: grid;
@@ -90,7 +95,7 @@ const Grid = styled.div`
       order: 2;
     }
   }
-`;
+`
 
 const Text = styled.div`
   justify-self: center;
@@ -98,6 +103,6 @@ const Text = styled.div`
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
   }
-`;
+`
 
-export default Header;
+export default Header
