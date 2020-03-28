@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import is from 'styled-is';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
@@ -141,9 +142,7 @@ const Grid = styled.div`
   justify-items: center;
   margin: 24px 0;
 
-  ${props =>
-    props.inverse &&
-    `
+  ${is('inverse')`
     text-align: left;
     grid-template-columns: 2fr 3fr;
   `}
@@ -161,12 +160,10 @@ const Grid = styled.div`
       margin-bottom: 24px;
     }
 
-    ${props =>
-      props.inverse &&
-      `
-        ${Art} {
-          order: 2;
-        }
+    ${is('inverse')`
+      ${Art} {
+        order: 2;
+      }
     `}
   }
 `;
