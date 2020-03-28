@@ -50,7 +50,7 @@ const About = () => (
           <Grid>
             <div>
               <p>
-                “Jeder Mensch zählt”, sagte die Bundeskanzlerin am 18.3.2020.
+                "Jeder Mensch zählt", sagte die Bundeskanzlerin am 18.3.2020.
                 “Jeder Mensch zählt” bedeutet auch, dass jeder Mensch
                 existenziell abgesichert werden muss. Das gilt insbesondere in
                 einer Krise. Die meistern wir nur zusammen als Gesellschaft, als
@@ -93,6 +93,9 @@ const About = () => (
             </Art>
           </Grid>
           <Grid inverse>
+            <Art>
+              <Img fluid={data.art_fast.childImageSharp.fluid} />
+            </Art>
             <div>
               <p>
                 Menschen, die durch ein Basiseinkommen unterstützt werden,
@@ -100,14 +103,8 @@ const About = () => (
                 zu bewältigen und der Gesellschaft etwas zurückzugeben.
               </p>
             </div>
-            <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
-            </Art>
           </Grid>
           <Grid>
-            <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
-            </Art>
             <div>
               <p>
                 Die Corona-Pandemie stellt die Welt vor eine noch nie dagewesene
@@ -118,8 +115,14 @@ const About = () => (
                 Zeiten der Krise.
               </p>
             </div>
+            <Art>
+              <Img fluid={data.art_learn.childImageSharp.fluid} />
+            </Art>
           </Grid>
           <Grid inverse>
+            <Art>
+              <Img fluid={data.art_ideas.childImageSharp.fluid} />
+            </Art>
             <div>
               <p>
                 Gesellschaftliche Effekte globaler Krisen treten zeitverzögert
@@ -131,14 +134,8 @@ const About = () => (
                 Konjunktur.
               </p>
             </div>
-            <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
-            </Art>
           </Grid>
           <Grid>
-            <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
-            </Art>
             <div>
               <p>
                 Not macht erfinderisch - noch nie waren schnelle Entscheidungen
@@ -148,8 +145,14 @@ const About = () => (
                 Krise auf das Wohl der Gemeinschaft zu konzentrieren.
               </p>
             </div>
+            <Art>
+              <Img fluid={data.art_learn.childImageSharp.fluid} />
+            </Art>
           </Grid>
           <Grid inverse>
+            <Art>
+              <Img fluid={data.art_ideas.childImageSharp.fluid} />
+            </Art>
             <div>
               <p>
                 Freelancer, Gastronomen, Studenten und freischaffende Künstler
@@ -161,9 +164,6 @@ const About = () => (
                 werden - schnell und unbürokratisch. Jede Stimme zählt.
               </p>
             </div>
-            <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
-            </Art>
           </Grid>
         </Container>
       </Section>
