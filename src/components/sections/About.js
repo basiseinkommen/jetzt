@@ -133,6 +133,12 @@ const About = () => (
   />
 );
 
+const Art = styled.figure`
+  margin: 0;
+  max-width: 380px;
+  width: 100%;
+`;
+
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -166,12 +172,6 @@ const Grid = styled.div`
       }
     `}
   }
-`;
-
-const Art = styled.figure`
-  margin: 0;
-  max-width: 380px;
-  width: 100%;
 `;
 
 export default About;
