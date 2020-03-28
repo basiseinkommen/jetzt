@@ -48,13 +48,13 @@ const Footer = () => (
           <StyledContainer>
             <Copyright>
               <h2>Basiseinkommen</h2>
-              <span>
+              <p>
                 Ein Projekt im Rahmen des
-                {` `}
                 <ExternalLink href="https://wirvsvirushackathon.org/">
                   #WirVsVirus Hackathon
                 </ExternalLink>
-              </span>
+              </p>
+              <Link to="/impressum">Impressum</Link>
             </Copyright>
             <SocialIcons>
               {SOCIAL.map(({ icon, link }) => (
@@ -63,9 +63,6 @@ const Footer = () => (
                 </ExternalLink>
               ))}
             </SocialIcons>
-            <div>
-              <Link to="/impressum">Impressum</Link>
-            </div>
           </StyledContainer>
         </FooterWrapper>
       </React.Fragment>
