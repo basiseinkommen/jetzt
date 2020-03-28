@@ -49,6 +49,7 @@ const Footer = () => (
               <h2>Basiseinkommen</h2>
               <p>
                 Ein Projekt im Rahmen des
+                {` `}
                 <ExternalLink href="https://wirvsvirushackathon.org/">
                   #WirVsVirus Hackathon
                 </ExternalLink>
