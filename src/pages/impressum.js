@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
+import ExternalLink from '@common/ExternalLink';
 import Layout from '@common/Layout';
 import { Container, Section } from '@components/global';
 
@@ -29,7 +29,7 @@ const Imprint = () => (
         <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechtes bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet.</p>
         <p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
 
-        <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
+        <p>Quelle: <ExternalLink href="https://www.e-recht24.de">https://www.e-recht24.de</ExternalLink></p>
       </Section>
     </Container>
   </Layout>
