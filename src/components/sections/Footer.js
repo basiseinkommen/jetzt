@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -47,13 +48,13 @@ const Footer = () => (
           <StyledContainer>
             <Copyright>
               <h2>Basiseinkommen</h2>
-              <span>
+              <p>
                 Ein Projekt im Rahmen des
-                {` `}
                 <ExternalLink href="https://wirvsvirushackathon.org/">
                   #WirVsVirus Hackathon
                 </ExternalLink>
-              </span>
+              </p>
+              <Link to="/impressum">Impressum</Link>
             </Copyright>
             <SocialIcons>
               {SOCIAL.map(({ icon, link }) => (

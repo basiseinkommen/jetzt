@@ -6,6 +6,14 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 0 16px;
 
+  h1 {
+    margin: 40px auto;
+  }
+
+  h2, h3, p {
+    margin: 20px auto;
+  }
+
   @media (min-width: ${props => props.theme.screen.xs}) {
     max-width: 540px;
   }
