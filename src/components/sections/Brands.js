@@ -1,44 +1,44 @@
-import React from 'react';
-import styled from 'styled-components';
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import React from 'react'
+import styled from 'styled-components'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
-import { Section, Container } from '@components/global';
-import ExternalLink from '@common/ExternalLink';
+import { Section, Container } from '@components/global'
+import ExternalLink from '@common/ExternalLink'
 
-import { ReactComponent as AirbnbLogo } from '@images/logos/airbnb.svg';
-import { ReactComponent as AppleMusicLogo } from '@images/logos/apple-music.svg';
-import { ReactComponent as CokeLogo } from '@images/logos/coca-cola.svg';
-import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg';
-import { ReactComponent as NikeLogo } from '@images/logos/nike.svg';
-import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
+import { ReactComponent as AirbnbLogo } from '@images/logos/airbnb.svg'
+import { ReactComponent as AppleMusicLogo } from '@images/logos/apple-music.svg'
+import { ReactComponent as CokeLogo } from '@images/logos/coca-cola.svg'
+import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg'
+import { ReactComponent as NikeLogo } from '@images/logos/nike.svg'
+import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg'
 
 const LOGOS = [
   {
     logo: AirbnbLogo,
-    link: 'https://airbnb.io',
+    link: 'https://airbnb.io'
   },
   {
     logo: AppleMusicLogo,
-    link: 'https://www.apple.com/in/music/',
+    link: 'https://www.apple.com/in/music/'
   },
   {
     logo: CokeLogo,
-    link: 'https://coca-cola.com',
+    link: 'https://coca-cola.com'
   },
   {
     logo: NodeLogo,
-    link: 'https://nodejs.org',
+    link: 'https://nodejs.org'
   },
   {
     logo: NikeLogo,
-    link: 'https://nike.com',
+    link: 'https://nike.com'
   },
   {
     logo: InstagramLogo,
-    link: 'https://instagram.com',
-  },
-];
+    link: 'https://instagram.com'
+  }
+]
 
 const UsedBy = () => (
   <StaticQuery
@@ -76,7 +76,7 @@ const UsedBy = () => (
       </Section>
     )}
   />
-);
+)
 
 const LogoGrid = styled.div`
   display: grid;
@@ -94,7 +94,7 @@ const LogoGrid = styled.div`
   @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr;
   }
-`;
+`
 
 const StyledContainer = styled(Container)`
   display: flex;
@@ -104,7 +104,7 @@ const StyledContainer = styled(Container)`
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-content: center;
   }
-`;
+`
 
 const Art = styled.figure`
   width: 600px;
@@ -121,6 +121,6 @@ const Art = styled.figure`
   @media (max-width: ${props => props.theme.screen.md}) {
     display: none;
   }
-`;
+`
 
-export default UsedBy;
+export default UsedBy
