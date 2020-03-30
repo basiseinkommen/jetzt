@@ -2,7 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
 
+import logo from '@images/logo.svg'
+import mp4 from '@videos/basiseinkommen.mp4'
+import webm from '@videos/basiseinkommen.webm'
+
 import { Container } from '@components/global'
+
+/* eslint-disable jsx-a11y/media-has-caption */
 
 const Header = () => (
   <StaticQuery
@@ -25,17 +31,13 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <iframe
-                title="Basiseinkommen"
-                src="https://www.youtube.com/embed/L2WGTjp2hlY"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <video controls poster={logo}>
+                <source src={mp4} type="video/mp4" />
+                <source src={webm} type="video/webm" />
+              </video>
             </Art>
             <Text>
               <h1>Basiseinkommen jetzt!</h1>
-              <br />
               <p>
                 Ein Basiseinkommen als Rettungsprogramm für alle Menschen in
                 Deutschland während der Corona-Krise.
@@ -64,20 +66,13 @@ const Art = styled.figure`
   margin: 0;
   position: relative;
 
-  iframe {
+  video {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-  }
 
-  > div {
-    width: 120%;
-    margin-bottom: -4.5%;
-
-    @media (max-width: ${props => props.theme.screen.md}) {
-      width: 100%;
-    }
+    background-color: white;
   }
 `
 
