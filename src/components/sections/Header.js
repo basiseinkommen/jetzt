@@ -37,10 +37,16 @@ const Header = () => (
               </video>
             </Art>
             <Text>
-              <h1>Basiseinkommen jetzt!</h1>
+              <h1>Basiseinkommen. Für alle. Jetzt!</h1>
+              <br />
               <p>
-                Ein Basiseinkommen als Rettungsprogramm für alle Menschen in
-                Deutschland während der Corona-Krise.
+                “Jeder Mensch zählt”, sagte die Bundeskanzlerin in ihrer
+                Pressemitteilung am 18.3.2020. “Jeder Mensch zählt” bedeutet für
+                uns, dass jeder Mensch existenziell abgesichert werden muss. Das
+                gilt insbesondere in einer Krise. Diese meistern wir nur
+                zusammen, als Gesellschaft, in der tatsächlich jeder Einzelne
+                sich als einen Teil innerhalb der Solidargemeinschaft erlebt und
+                zählt.
               </p>
             </Text>
           </Grid>

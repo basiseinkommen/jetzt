@@ -5,6 +5,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Section, Container } from '@components/global'
+import ExternalLink from '@common/ExternalLink'
+import FaqItem from '@common/FaqItem'
 
 const About = () => (
   <StaticQuery
@@ -49,12 +51,22 @@ const About = () => (
         <Container>
           <Grid>
             <div>
+              <h2>Wer sind Wir?</h2>
               <p>
-                "Jeder Mensch zählt", sagte die Bundeskanzlerin am 18.3.2020.
-                “Jeder Mensch zählt” bedeutet auch, dass jeder Mensch
-                existenziell abgesichert werden muss. Das gilt insbesondere in
-                einer Krise. Die meistern wir nur zusammen als Gesellschaft, als
-                Solidargemeinschaft, als Bevölkerung in Deutschland.
+                Der{' '}
+                <ExternalLink href="https://wirvsvirushackathon.org/">
+                  #WirVsVirus Hackathon
+                </ExternalLink>{' '}
+                vom 20. bis 22. März 2020, der unter der Schirmherrschaft der
+                Bundesregierung lief, hat von etwa 42.000 Teilnehmer:innen 82
+                Personen aus unterschiedlichster Berufen, aber mit derselben
+                Berufung zusammengeführt. Gemeinsam haben wir uns einer der
+                dringendsten gesellschaftlichen Herausforderungen gestellt: Wie
+                gehen wir mit den finanziellen und existenziellen Ängsten von
+                uns allen um, die sich in einer solchen Krisenzeit etablieren?
+                Während des Hackathons haben wir innerhalb von zwei Tagen und
+                Nächten einen ganz konkreten Lösungsansatz konzipiert: Das
+                Basiseinkommen.
               </p>
             </div>
             <Art>
@@ -66,17 +78,35 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
+              <h2>Warum brauchen wir das Basiseinkommen?</h2>
               <p>
-                Viele Menschen sind derzeit in Deutschland an ihren persönlichen
-                Grenzen. Nehmen wir den Krankenpfleger, der täglich mehr als die
-                üblichen 8 Stunden arbeitet. Seine Kollegen sind erkrankt und er
-                möchte die Menschen auf seiner Station nicht im Stich lassen.
-                Oder die Blumenhändlerin, die ihr Geschäft nicht mehr aufmachen
-                darf und gleichzeitig Miete zahlen und die Familie durchbringen
-                muss. Finanzielle Sorgen, Existenzängste und eine Gesellschaft,
-                die sich mehr auf ihre Einzelbedürfnisse konzentriert, als die
-                Gemeinschaft voran zu bringen.
+                Die Corona-Pandemie stellt die Welt vor eine noch nie dagewesene
+                Herausforderung. Auch in Deutschland drängt die aktuelle Krise
+                viele Bürger:innen an ihre persönlichen und finanziellen
+                Grenzen. Das von der Bundesregierung geplante Konjunkturpaket
+                hilft nicht allen wirtschaftlich Betroffenen. Sei es der
+                Blumenhändler, der sein Geschäft nicht mehr aufmachen darf und
+                die Miete für seine Wohnung trotzdem weiter zahlen muss. Oder
+                die Angestellte, die ihren Job in der Probezeit direkt wieder
+                verloren hat, aber die Familie durchbringen muss. Die
+                Corona-Krise verstärkt Existenzängste und schafft neue
+                finanzielle Notsituationen.
               </p>
+              <FaqItem title="Von der Angst">
+                Eine kollektive, existenzielle Angsterfahrung, wie wir sie in
+                der aktuellen Krise erleben, hat nachhaltige Auswirkungen für
+                jede:n Einzelne:n. Angst ist eine zumeist als negativ empfundene
+                Emotion, die uns zu Höchstleistungen hinsichtlich Vermeidungs-,
+                Flucht- oder Kampfverhalten treibt. Im Extrem entspricht Angst
+                bildlich gesprochen einem Diktator, der alle anderen
+                Gehirnaktivitäten (von der Wahrnehmung bis zur Atmung)
+                versklavt. Assoziationen mit Angst sind die am schnellsten
+                erlernten, am besten gespeicherten und am leichtesten wieder
+                abrufbaren Assoziationen. Negative Erfahrungen wiegen
+                neurowissenschaftlich stärker. Um eine negative Erfahrung
+                psychisch zu verarbeiten, braucht es ein Vielfaches an positiven
+                Erfahrungen im Anschluss.
+              </FaqItem>
             </div>
           </Grid>
           <Grid>
