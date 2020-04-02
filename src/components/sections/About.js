@@ -73,12 +73,12 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <img src={work_together} alt='' />
+              <img src={work_together} alt="" />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <img src={all_the_data} alt='' />
+              <img src={all_the_data} alt="" />
             </Art>
             <div>
               <h2>Warum brauchen wir das Basiseinkommen?</h2>
