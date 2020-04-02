@@ -12,7 +12,9 @@ import { Container } from '@components/global'
 const Header = () => (
   <HeaderWrapper>
     <Container>
-      <h1>Basiseinkommen. Grundsätzlich für alle. <strong>Jetzt!</strong></h1>
+      <h1>
+        Basiseinkommen. Grundsätzlich für alle. <strong>Jetzt!</strong>
+      </h1>
       <Grid>
         <Art>
           <video controls poster={logo}>
@@ -25,10 +27,9 @@ const Header = () => (
             “Jeder Mensch zählt”, sagte die Bundeskanzlerin in ihrer
             Pressemitteilung am 18.3.2020. “Jeder Mensch zählt” bedeutet für
             uns, dass jeder Mensch existenziell abgesichert werden muss. Das
-            gilt insbesondere in einer Krise. Diese meistern wir nur
-            zusammen, als Gesellschaft, in der tatsächlich jeder Einzelne
-            sich als einen Teil innerhalb der Solidargemeinschaft erlebt und
-            zählt.
+            gilt insbesondere in einer Krise. Diese meistern wir nur zusammen,
+            als Gesellschaft, in der tatsächlich jeder Einzelne sich als einen
+            Teil innerhalb der Solidargemeinschaft erlebt und zählt.
           </p>
         </Text>
       </Grid>
