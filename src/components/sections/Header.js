@@ -5,7 +5,7 @@ import logo from '@images/logo.svg'
 import mp4 from '@videos/basiseinkommen.mp4'
 import webm from '@videos/basiseinkommen.webm'
 
-import { Container } from '@components/global'
+import { Container, inverted } from '@components/global'
 
 /* eslint-disable jsx-a11y/media-has-caption */
 
@@ -38,7 +38,8 @@ const Header = () => (
 )
 
 const HeaderWrapper = styled.header`
-  background-color: ${props => props.theme.color.primary};
+  ${inverted};
+
   padding: 64px 0 96px;
 
   @media (max-width: ${props => props.theme.screen.md}) {

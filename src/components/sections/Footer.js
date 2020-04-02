@@ -3,24 +3,24 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
 
-import { Container } from '@components/global'
+import { Container, inverted } from '@components/global'
 import ExternalLink from '@common/ExternalLink'
 
-import GithubIcon from '@static/icons/github.svg'
-import InstagramIcon from '@static/icons/instagram.svg'
-import TwitterIcon from '@static/icons/twitter.svg'
+import { ReactComponent as GithubIcon } from '@static/icons/github.svg'
+import { ReactComponent as InstagramIcon } from '@static/icons/instagram.svg'
+import { ReactComponent as TwitterIcon } from '@static/icons/twitter.svg'
 
 const SOCIAL = [
   {
-    icon: GithubIcon,
+    Icon: GithubIcon,
     link: 'https://github.com/basiseinkommen/jetzt'
   },
   {
-    icon: InstagramIcon,
+    Icon: InstagramIcon,
     link: 'https://instagram.com/basiseinkommen'
   },
   {
-    icon: TwitterIcon,
+    Icon: TwitterIcon,
     link: 'https://twitter.com/basiseinkommen'
   }
 ]
@@ -57,9 +57,9 @@ const Footer = () => (
               <Link to="/impressum">Impressum</Link>
             </Copyright>
             <SocialIcons>
-              {SOCIAL.map(({ icon, link }) => (
+              {SOCIAL.map(({ Icon, link }) => (
                 <ExternalLink key={link} href={link}>
-                  <img src={icon} alt="link" />
+                  <Icon />
                 </ExternalLink>
               ))}
             </SocialIcons>
@@ -73,7 +73,7 @@ const Footer = () => (
 const SocialIcons = styled.div`
   display: flex;
 
-  img {
+  svg {
     margin: 0 8px;
     width: 24px;
     height: 24px;
@@ -85,14 +85,14 @@ const SocialIcons = styled.div`
 `
 
 const FooterWrapper = styled.footer`
-  background-color: ${props => props.theme.color.primary};
+  ${inverted};
   padding: 32px 0;
 `
 
 const Copyright = styled.div`
   font-family: ${props => props.theme.font.secondary};
   ${props => props.theme.font_size.small};
-  color: ${props => props.theme.color.black.regular};
+  color: ${props => props.theme.color.white.regular};
 
   a {
     text-decoration: none;
