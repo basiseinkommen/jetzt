@@ -95,6 +95,20 @@ const About = () => (
                 Corona-Krise verstärkt Existenzängste und schafft neue
                 finanzielle Notsituationen.
               </p>
+              <p>
+                Gesellschaftliche Effekte globaler Krisen treten zeitverzögert
+                auf und machen sich erst später bemerkbar. Die Überlastung des
+                Gesundheits- und Pflegebereichs zeichneten sich bereits vor der
+                Pandemie ab und spitzen sich nun dramatisch zu. In anderen
+                Bereichen kommen nach der Corona-Pandemie und zum Teil bereits
+                jetzt eine Explosion der Arbeitslosenzahlen, Lawinen an Privat-
+                und Betriebsinsolvenzen auf uns zu. Für die Wirtschaft bedeutet
+                dies, dass die Kaufkraft vieler von uns nicht nur während,
+                sondern auch noch nach der Krise niedrig bleibt. Ein
+                bedarfsunabhängiges Basiseinkommen kann diesen Effekten entgegen
+                wirken. Eine Weiterführung von drei bis sechs Monaten nach
+                Überwindung der Krise ist deshalb zu prüfen.
+              </p>
               <FaqItem title="Von der Angst">
                 Eine kollektive, existenzielle Angsterfahrung, wie wir sie in
                 der aktuellen Krise erleben, hat nachhaltige Auswirkungen für
@@ -110,20 +124,6 @@ const About = () => (
                 psychisch zu verarbeiten, braucht es ein Vielfaches an positiven
                 Erfahrungen im Anschluss.
               </FaqItem>
-              <p>
-                Gesellschaftliche Effekte globaler Krisen treten zeitverzögert
-                auf und machen sich erst später bemerkbar. Die Überlastung des
-                Gesundheits- und Pflegebereichs zeichneten sich bereits vor der
-                Pandemie ab und spitzen sich nun dramatisch zu. In anderen
-                Bereichen kommen nach der Corona-Pandemie und zum Teil bereits
-                jetzt eine Explosion der Arbeitslosenzahlen, Lawinen an Privat-
-                und Betriebsinsolvenzen auf uns zu. Für die Wirtschaft bedeutet
-                dies, dass die Kaufkraft vieler von uns nicht nur während,
-                sondern auch noch nach der Krise niedrig bleibt. Ein
-                bedarfsunabhängiges Basiseinkommen kann diesen Effekten entgegen
-                wirken. Eine Weiterführung von drei bis sechs Monaten nach
-                Überwindung der Krise ist deshalb zu prüfen.
-              </p>
             </div>
           </Grid>
           <Grid>

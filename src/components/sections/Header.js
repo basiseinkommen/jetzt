@@ -12,7 +12,7 @@ import { Container } from '@components/global'
 const Header = () => (
   <HeaderWrapper>
     <Container>
-      <h1>Basiseinkommen. Grundsätzlich, für alle. Jetzt!</h1>
+      <h1>Basiseinkommen. Grundsätzlich für alle. <strong>Jetzt!</strong></h1>
       <Grid>
         <Art>
           <video controls poster={logo}>
@@ -21,7 +21,6 @@ const Header = () => (
           </video>
         </Art>
         <Text>
-          <br />
           <p>
             “Jeder Mensch zählt”, sagte die Bundeskanzlerin in ihrer
             Pressemitteilung am 18.3.2020. “Jeder Mensch zählt” bedeutet für
@@ -39,14 +38,10 @@ const Header = () => (
 
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.primary};
-  padding: 96px 0;
+  padding: 64px 0 96px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
-    padding: 128px 0;
-  }
-
-  h1 {
-    text-align: center;
+    padding: 64px 0 128px;
   }
 `
 
