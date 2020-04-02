@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { StaticQuery, graphql } from 'gatsby'
 
 import logo from '@images/logo.svg'
 import mp4 from '@videos/basiseinkommen.mp4'
@@ -11,49 +10,31 @@ import { Container } from '@components/global'
 /* eslint-disable jsx-a11y/media-has-caption */
 
 const Header = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        art_build: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "build" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 1400) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-      }
-    `}
-    render={data => (
-      <HeaderWrapper>
-        <Container>
-          <Grid>
-            <Art>
-              <video controls poster={logo}>
-                <source src={mp4} type="video/mp4" />
-                <source src={webm} type="video/webm" />
-              </video>
-            </Art>
-            <Text>
-              <h1>Basiseinkommen. Für alle. Jetzt!</h1>
-              <br />
-              <p>
-                “Jeder Mensch zählt”, sagte die Bundeskanzlerin in ihrer
-                Pressemitteilung am 18.3.2020. “Jeder Mensch zählt” bedeutet für
-                uns, dass jeder Mensch existenziell abgesichert werden muss. Das
-                gilt insbesondere in einer Krise. Diese meistern wir nur
-                zusammen, als Gesellschaft, in der tatsächlich jeder Einzelne
-                sich als einen Teil innerhalb der Solidargemeinschaft erlebt und
-                zählt.
-              </p>
-            </Text>
-          </Grid>
-        </Container>
-      </HeaderWrapper>
-    )}
-  />
+  <HeaderWrapper>
+    <Container>
+      <h1>Basiseinkommen. Grundsätzlich, für alle. Jetzt!</h1>
+      <Grid>
+        <Art>
+          <video controls poster={logo}>
+            <source src={mp4} type="video/mp4" />
+            <source src={webm} type="video/webm" />
+          </video>
+        </Art>
+        <Text>
+          <br />
+          <p>
+            “Jeder Mensch zählt”, sagte die Bundeskanzlerin in ihrer
+            Pressemitteilung am 18.3.2020. “Jeder Mensch zählt” bedeutet für
+            uns, dass jeder Mensch existenziell abgesichert werden muss. Das
+            gilt insbesondere in einer Krise. Diese meistern wir nur
+            zusammen, als Gesellschaft, in der tatsächlich jeder Einzelne
+            sich als einen Teil innerhalb der Solidargemeinschaft erlebt und
+            zählt.
+          </p>
+        </Text>
+      </Grid>
+    </Container>
+  </HeaderWrapper>
 )
 
 const HeaderWrapper = styled.header`
@@ -62,6 +43,10 @@ const HeaderWrapper = styled.header`
 
   @media (max-width: ${props => props.theme.screen.md}) {
     padding: 128px 0;
+  }
+
+  h1 {
+    text-align: center;
   }
 `
 

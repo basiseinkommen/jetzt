@@ -4,6 +4,9 @@ import is from 'styled-is'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
+import all_the_data from '@images/art/all_the_data.svg'
+import work_together from '@images/art/work_together.svg'
+
 import { Section, Container } from '@components/global'
 import ExternalLink from '@common/ExternalLink'
 import FaqItem from '@common/FaqItem'
@@ -70,12 +73,12 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <img src={work_together} alt='' />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
+              <img src={all_the_data} alt='' />
             </Art>
             <div>
               <h2>Warum brauchen wir das Basiseinkommen?</h2>
@@ -272,6 +275,10 @@ const Art = styled.figure`
   margin: 0;
   max-width: 380px;
   width: 100%;
+
+  img {
+    width: 100%;
+  }
 `
 
 const Grid = styled.div`
