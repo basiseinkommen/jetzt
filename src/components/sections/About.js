@@ -107,15 +107,53 @@ const About = () => (
                 psychisch zu verarbeiten, braucht es ein Vielfaches an positiven
                 Erfahrungen im Anschluss.
               </FaqItem>
+              <p>
+                Gesellschaftliche Effekte globaler Krisen treten zeitverzögert
+                auf und machen sich erst später bemerkbar. Die Überlastung des
+                Gesundheits- und Pflegebereichs zeichneten sich bereits vor der
+                Pandemie ab und spitzen sich nun dramatisch zu. In anderen
+                Bereichen kommen nach der Corona-Pandemie und zum Teil bereits
+                jetzt eine Explosion der Arbeitslosenzahlen, Lawinen an Privat-
+                und Betriebsinsolvenzen auf uns zu. Für die Wirtschaft bedeutet
+                dies, dass die Kaufkraft vieler von uns nicht nur während,
+                sondern auch noch nach der Krise niedrig bleibt. Ein
+                bedarfsunabhängiges Basiseinkommen kann diesen Effekten entgegen
+                wirken. Eine Weiterführung von drei bis sechs Monaten nach
+                Überwindung der Krise ist deshalb zu prüfen.
+              </p>
             </div>
           </Grid>
           <Grid>
             <div>
+              <h2>Was bedeutet das Basiseinkommen für mich?</h2>
               <p>
-                Einige sagen Helikoptergeld, andere Grundeinkommen - wir möchten
-                das Basiseinkommen Realität werden lassen und diejenigen in
-                dieser Krise unterstützen, die uns als Gesellschaft jetzt
-                brauchen.
+                Ziel des Basiseinkommens ist es, die Existenz aller in
+                Deutschland wohnhaften Personen finanziell zu sichern. Das
+                bedeutet konkret: Du sowie jede andere Person, der in
+                Deutschland eine Steueridentifikationsnummer zugeteilt ist,
+                erhält für eine Dauer von sechs Monaten, mindestens aber solange
+                die Pandemie andauert monatlich 1.000 Euro Basiseinkommen pro
+                Person. Und zwar ohne Bedarfsprüfung. BAföG, Kindergeld und
+                Renten werden bis zur Höhe des Basiseinkommens mit diesem
+                verrechnet. Bei Sozialleistungen, die sich am Einkommen der
+                Person bemessen (beispielsweise ALG II/SGB II, SGB XII), wird
+                das Basiseinkommen als Einkommen angerechnet. So wird
+                sichergestellt, dass auch diejenigen Menschen, die welche diese
+                Leistungen erhalten, am Basiseinkommen teilhaben.
+              </p>
+              <p>
+                Unsere Gesellschaft lebt von der Diversität und unsere
+                Wirtschaft von Interdependenzen: Jedes Kettenglied ist so
+                einzigartig wie essentiell. Ein Zusammenbruch privater
+                Existenzen in dem zu erwartenden Ausmaß kann durch das
+                Basiseinkommen verhindert werden. 1000 € pro Monat für dich, für
+                uns alle - ein Vertrauensvorschuss, finanzielle Unterstützung
+                und Anerkennung in Form des Basiseinkommens. Das Geld soll dir
+                und uns allen dabei helfen, finanzielle und existenzielle Sorgen
+                und Ängste einzudämmen, unser Potenzial zu entfalten,
+                gesellschaftliche Teilhabe zu sichern und der Gesellschaft etwas
+                zurückzugeben, sodass wir die Krise gemeinsam bewältigen -
+                solidarisch und zuversichtlich.
               </p>
             </div>
             <Art>
@@ -127,22 +165,67 @@ const About = () => (
               <Img fluid={data.art_fast.childImageSharp.fluid} />
             </Art>
             <div>
+              <h2>Was bedeutet das Basiseinkommen für den Staat?</h2>
               <p>
-                Menschen, die durch ein Basiseinkommen unterstützt werden,
-                können die aktuell gewonnene freie Zeit einbringen, um die Krise
-                zu bewältigen und der Gesellschaft etwas zurückzugeben.
+                Der Staat wird durch die Einführung des Basiseinkommens Ausgaben
+                in Höhe von 1000 € pro in Deutschland lebender Person mit
+                Steueridentifikationsnummer haben für einen Mindestzeitraum von
+                sechs Monaten, mindestens aber solange die Krise andauert.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
+              <h2>Wie kann das funktionieren?</h2>
               <p>
-                Die Corona-Pandemie stellt die Welt vor eine noch nie dagewesene
-                Herausforderung. Auch in Deutschland drängt die aktuelle
-                Situation viele Bürgerinnen und Bürger an den Rand des
-                wirtschaftlichen Abgrunds. Ein unbürokratisches Basiseinkommen
-                sichert das Überleben und lindert Existenzängste in schweren
-                Zeiten der Krise.
+                Was erst einmal nach einer horrenden Summe klingt, wird
+                finanziell vorstellbar, je eingehender man sich mit bestehenden
+                Ansätzen und Berechnungsmodellen aus der
+                bedingungslosen-Grundeinkommen-Szene befasst. Es lässt sich
+                feststellen, dass es sich bei den Ausgaben zunächst einmal um
+                Bruttokosten handelt. Ein großer Teil fließt zurück an den
+                Staat, über Einkommenssteuern, Sozialabgaben und auch
+                Mehrwertsteuer. Tatsächliche Mehrkosten könnten über
+                Steuererhöhungen wieder reinkommen, denkbar wäre auch eine
+                Finanztransaktionssteuer, welche die Hochfinanz heranzieht. Für
+                die Zeit der Krisenbewältigung könnte der Steuerfreibetrag
+                gekürzt werden, über einen Soli auf die Einkommen oder über eine
+                erhöhte Unternehmenssteuer eingezogen werden. Da die Unternehmen
+                bereits von dem Corona-Krisenpaket, wie beispielsweise bsp.
+                Kurzarbeitergeld profitieren, könnte dieses Geld zu einem
+                späteren Zeitpunkt wieder in die Staatskasse zurückfließen. Für
+                welches Konzept der Finanzierung man sich entscheidet, bleibt
+                allerdings eine Frage der politischen Zielsetzung.
+              </p>
+              <p>
+                <strong>Und die konkrete Umsetzung?</strong>
+                <br />
+                Die Anforderungen an die Auszahlung eines Basiseinkommen
+                innerhalb der aktuellen Krisensituation sind hoch: Das Geld muss
+                so unbürokratisch und schnell wie möglich genau zu den Personen,
+                die Anspruch darauf haben. Gleichzeitig muss sichergestellt
+                werden, dass jede Person (beispielsweise auch ohne
+                Bankverbindung) einen Zugang zum Basiseinkommen hat und
+                gleichzeitig Mehrfachauszahlungen und Betrug verhindert werden.
+                Um diesen Anforderungen gerecht zu werden und unsere Behörden
+                dabei nicht zu überlasten, ist es sinnvoll, die bestehenden
+                technischen Infrastrukturen der Finanzämter, Sozialreferate und
+                Arbeitsagenturen zu nutzen: Über die individuelle
+                Steueridentifikationsnummer jeder:jedes einzelnen kann die
+                eindeutige Ermittlung aller in Deutschland lebender Personen mit
+                Anspruch auf Basiseinkommen erfolgen. Ist dem Staat eine IBAN zu
+                der Steuer-ID bekannt, so wird das Basiseinkommen automatisch
+                auf das dort registrierte Konto überwiesen. Für alle Personen,
+                die kein Konto besitzen, kann das Geld über eine sogenannte
+                Geldkarte oder Barauszahlung bei der zuständigen Behörde sowie
+                eine Legitimation mittels Personalausweis bzw.
+                Steueridentifikation eingeholt werden. Bei der Ermittlung des
+                Anspruchs auf Basiseinkommen und der Legitimation werden
+                personenbezogene Daten erhoben, die von der jeweiligen Behörde
+                gemäß DSGVO zum Transport und zur Ablage verschlüsselt werden.
+                Hierunter fallen die Steueridentifikationsnummer, das
+                Geburtsdatum, die Legitimation für Familienmitglieder vor Ort
+                bei der Behörde und Personalausweisdaten.
               </p>
             </div>
             <Art>
@@ -154,45 +237,29 @@ const About = () => (
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
             <div>
+              <h2>Und was kann ich dazu beitragen?</h2>
               <p>
-                Gesellschaftliche Effekte globaler Krisen treten zeitverzögert
-                auf und machen sich erst später bemerkbar. Eine Explosion der
-                Arbeitslosenzahlen, Lawinen an Privat- und Betriebsinsolvenzen
-                sowie eine Überlastung der Pflege- und Gesundheitsbranche sind
-                uns nach der Corona-Pandemie garantiert. Eine Stimme für das
-                Basiseinkommen sichert private Existenzen und stärkt die
-                Konjunktur.
+                Unterstütze alle Petitionen, die sich derzeit in der Prüfung im
+                Ausschuss des Bundestages befinden und auch die privat
+                organisierten Petitionen, wie beispielsweise die von Tonia Merz
+                auf change.org
               </p>
-            </div>
-          </Grid>
-          <Grid>
-            <div>
-              <p>
-                Not macht erfinderisch - noch nie waren schnelle Entscheidungen
-                so stark gefragt wie heute. Ein bedarfsunabhängiges
-                Basiseinkommen lindert Existenzängste und schafft eine
-                einzigartige Möglichkeit für Betroffene, sich in Zeiten der
-                Krise auf das Wohl der Gemeinschaft zu konzentrieren.
-              </p>
-            </div>
-            <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
-            </Art>
-          </Grid>
-          <Grid inverse>
-            <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <p>
-                Freelancer, Gastronomen, Studenten und freischaffende Künstler
-                sind nur ein kleiner Teil der wirtschaftlich Betroffenen durch
-                die Corona-Pandemie. Unsere Gesellschaft lebt von der Diversität
-                und unsere Wirtschaft von Interdependenzen - jedes Kettenglied
-                ist so einzigartig wie essentiell. Ein Massenzusammenbruch
-                privater Existenzen kann durch das Basiseinkommen verhindert
-                werden - schnell und unbürokratisch. Jede Stimme zählt.
-              </p>
+              <ul>
+                <li>
+                  Petition{' '}
+                  <ExternalLink href="http://chng.it/NWhN2bCwSy">
+                    Mit dem bedingungslosen Grundeinkommen durch die Coronakrise
+                  </ExternalLink>{' '}
+                  von Tonia Merz via change.org
+                </li>
+                <li>
+                  Bundestagspetition 108191{' '}
+                  <ExternalLink href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html">
+                    Einführung eines Bedingungslosen Grundeinkommens
+                  </ExternalLink>{' '}
+                  vom 14.03.2020
+                </li>
+              </ul>
             </div>
           </Grid>
         </Container>
