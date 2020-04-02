@@ -4,8 +4,13 @@ import is from 'styled-is'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import all_the_data from '@images/art/all_the_data.svg'
-import work_together from '@images/art/work_together.svg'
+import art_01_work_together from '@images/art/work_together.svg'
+import art_02_all_the_data from '@images/art/all_the_data.svg'
+import art_03_weather_app from '@images/art/weather_app.svg'
+import art_04_quite_town from '@images/art/quite_town.svg'
+import art_05_conceptual_idea from '@images/art/conceptual_idea.svg'
+import art_06_road_sign from '@images/art/road_sign.svg'
+import art_07_group_chat from '@images/art/group_chat.svg'
 
 import { Section, Container } from '@components/global'
 import ExternalLink from '@common/ExternalLink'
@@ -73,12 +78,12 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <img src={work_together} alt="" />
+              <img src={art_01_work_together} alt="" />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <img src={all_the_data} alt="" />
+              <img src={art_02_all_the_data} alt="" />
             </Art>
             <div>
               <h2>Warum brauchen wir das Basiseinkommen?</h2>
@@ -160,12 +165,12 @@ const About = () => (
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
+              <img src={art_03_weather_app} alt="" />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <img src={art_04_quite_town} alt="" />
             </Art>
             <div>
               <h2>Was bedeutet das Basiseinkommen für den Staat?</h2>
@@ -200,6 +205,16 @@ const About = () => (
                 welches Konzept der Finanzierung man sich entscheidet, bleibt
                 allerdings eine Frage der politischen Zielsetzung.
               </p>
+            </div>
+            <Art>
+              <img src={art_05_conceptual_idea} alt="" />
+            </Art>
+          </Grid>
+          <Grid inverse>
+            <Art>
+              <img src={art_06_road_sign} alt="" />
+            </Art>
+            <div>
               <p>
                 <strong>Und die konkrete Umsetzung?</strong>
                 <br />
@@ -231,14 +246,8 @@ const About = () => (
                 bei der Behörde und Personalausweisdaten.
               </p>
             </div>
-            <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
-            </Art>
           </Grid>
-          <Grid inverse>
-            <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
-            </Art>
+          <Grid>
             <div>
               <h2>Und was kann ich dazu beitragen?</h2>
               <p>
@@ -264,6 +273,9 @@ const About = () => (
                 </li>
               </ul>
             </div>
+            <Art>
+              <img src={art_07_group_chat} alt="" />
+            </Art>
           </Grid>
         </Container>
       </Section>
