@@ -1,10 +1,11 @@
 import styled from 'styled-components'
+import is from 'styled-is'
 
-import { Container } from '@components/global'
+import { Container, inverted } from '@components/global'
 
 export const Nav = styled.nav`
+  ${inverted};
   padding: 16px 0;
-  background-color: ${props => props.theme.color.primary};
   position: fixed;
   width: 100%;
   top: 0;
@@ -59,7 +60,7 @@ export const NavItem = styled.li`
 
 export const MobileMenu = styled.div`
   width: 100%;
-  background: ${props => props.theme.color.primary};
+  ${inverted};
 `
 
 export const Brand = styled.div`
@@ -78,12 +79,10 @@ export const Mobile = styled.div`
     display: block;
   }
 
-  ${props =>
-    props.hide &&
-    `
+  ${is('hide')`
     display: block;
 
-    @media (max-width: ${props.theme.screen.md}) {
+    @media (max-width: ${props => props.theme.screen.md}) {
       display: none;
     }
   `}

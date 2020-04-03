@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import is from 'styled-is'
 
 export const Container = styled.div`
   max-width: 1200px;
@@ -32,11 +33,19 @@ export const Container = styled.div`
     max-width: 1200px;
   }
 
-  ${props =>
-    props.fluid &&
-    `
+  ${is('fluid')`
     max-width: 1200px !important;
   `};
+`
+
+export const inverted = css`
+  background-color: ${props => props.theme.color.white.inverted};
+  &,
+  p,
+  a,
+  svg {
+    color: ${props => props.theme.color.black.inverted};
+  }
 `
 
 export const Section = styled.section`
@@ -47,11 +56,13 @@ export const Section = styled.section`
     padding: 96px 0;
   }
 
-  ${props =>
-    props.accent &&
-    `background-color: ${
+  ${is('accent')`
+    background-color: ${props =>
       props.accent === 'secondary'
         ? props.theme.color.white.dark
-        : props.theme.color.primary
-    }`};
+        : props.theme.color.primary}`};
+
+  ${is('inverted')`
+      ${inverted};
+  `};
 `
