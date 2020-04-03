@@ -1,5 +1,3 @@
-import { lighten } from 'polished'
-
 const theme = {
   font: {
     primary: `'Arial', sans-serif`,
