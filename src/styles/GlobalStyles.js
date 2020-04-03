@@ -32,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
     ${props => props.theme.font_size.large};
   }
 
-  p {
+  p, ul {
     ${props => props.theme.font_size.regular};
     color: ${props => props.theme.color.black.light};
   }
@@ -50,7 +50,7 @@ const GlobalStyles = createGlobalStyle`
       ${props => props.theme.font_size.regular};
     }
 
-    p {
+    p, ul {
       ${props => props.theme.font_size.small};
     }
   }

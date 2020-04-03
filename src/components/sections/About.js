@@ -207,22 +207,22 @@ const About = () => (
             Ausschuss des Bundestages befinden und auch die privat organisierten
             Petitionen, wie beispielsweise die von Tonia Merz auf change.org
           </p>
-          <ul>
-            <li>
+          <PetitionList>
+            <Petition>
               Petition{' '}
               <ExternalLink href="http://chng.it/NWhN2bCwSy">
                 Mit dem bedingungslosen Grundeinkommen durch die Coronakrise
               </ExternalLink>{' '}
               von Tonia Merz via change.org
-            </li>
-            <li>
+            </Petition>
+            <Petition>
               Bundestagspetition 108191{' '}
               <ExternalLink href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html">
                 Einführung eines Bedingungslosen Grundeinkommens
               </ExternalLink>{' '}
               vom 14.03.2020
-            </li>
-          </ul>
+            </Petition>
+          </PetitionList>
         </div>
         <Art>
           <img src={art_07_group_chat} alt="" />
@@ -231,6 +231,12 @@ const About = () => (
     </Container>
   </Section>
 )
+
+const PetitionList = styled.ul`
+  list-style-type: inside;
+`
+
+const Petition = styled.li``
 
 const Art = styled.figure`
   margin: 0;
