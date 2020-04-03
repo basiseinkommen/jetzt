@@ -15,14 +15,16 @@ const theme = {
   color: {
     white: {
       regular: '#FFFFFF',
-      dark: '#F6F6F6'
+      dark: '#F6F6F6',
+      inverted: 'hsl(0, 0%, 25%)'
     },
     black: {
       lighter: '#ABA8AF',
       light: '#564F62',
-      regular: '#211E26'
+      regular: '#211E26',
+      inverted: '#FFFFFF'
     },
-    primary: lighten(0.15, '#FFD005')
+    primary: '#FFD005'
   },
   screen: {
     xs: '575px',

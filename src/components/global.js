@@ -39,12 +39,12 @@ export const Container = styled.div`
 `
 
 export const inverted = css`
-  background-color: ${props => props.theme.color.black.regular};
+  background-color: ${props => props.theme.color.white.inverted};
   &,
   p,
   a,
   svg {
-    color: ${props => props.theme.color.white.regular};
+    color: ${props => props.theme.color.black.inverted};
   }
 `
 
