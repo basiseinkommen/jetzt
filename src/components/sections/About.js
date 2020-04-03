@@ -233,10 +233,25 @@ const About = () => (
 )
 
 const PetitionList = styled.ul`
-  list-style-type: inside;
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 0 24px;
 `
 
-const Petition = styled.li``
+const Petition = styled.li`
+  margin: 24px 0;
+
+  &:before {
+    margin: 0 8px;
+    content: '⮕';
+    color: ${({theme}) => theme.color.primary};
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+`
 
 const Art = styled.figure`
   margin: 0;
