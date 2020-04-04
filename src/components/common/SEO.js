@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import img from '@static/basiseinkommen-jetzt.jpg'
 
-const url = 'https://basiseinkommen-jetzt.de/'
+const url = 'https://basiseinkommen-jetzt.de'
 
 const SEO_DATA = {
   description:
