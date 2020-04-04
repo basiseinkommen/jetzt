@@ -244,7 +244,7 @@ const Petition = styled.li`
   &:before {
     margin: 0 8px;
     content: '⮕';
-    color: ${({theme}) => theme.color.primary};
+    color: ${({ theme }) => theme.color.primary};
   }
 
   a {
