@@ -1,3 +1,7 @@
+image: gitpod/workspace-full
 tasks:
   - init: yarn
     command: yarn dev
+ports:
+  - port: 8000
+    onOpen: open-preview
