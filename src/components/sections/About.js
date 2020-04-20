@@ -84,7 +84,9 @@ const About = () => (
             leichtesten wieder abrufbaren Assoziationen. Negative Erfahrungen
             wiegen neurowissenschaftlich stärker. Um eine negative Erfahrung
             psychisch zu verarbeiten, braucht es ein Vielfaches an positiven
-            Erfahrungen im Anschluss.
+            Erfahrungen im Anschluss. Ein Basiseinkommen könnte solch eine
+            positive Erfahrung sein, weil es Sicherheit bietet und Freiraum für
+            Selbstwirksamkeit schafft.
           </FaqItem>
         </div>
       </Grid>
@@ -98,12 +100,13 @@ const About = () => (
             Steueridentifikationsnummer zugeteilt ist, erhält für eine Dauer von
             sechs Monaten, mindestens aber solange die Pandemie andauert
             monatlich 1.000 Euro Basiseinkommen pro Person. Und zwar ohne
-            Bedarfsprüfung. BAföG, Kindergeld und Renten werden bis zur Höhe des
-            Basiseinkommens mit diesem verrechnet. Bei Sozialleistungen, die
-            sich am Einkommen der Person bemessen (beispielsweise ALG II/SGB II,
-            SGB XII), wird das Basiseinkommen als Einkommen angerechnet. So wird
-            sichergestellt, dass auch diejenigen Menschen, die welche diese
-            Leistungen erhalten, am Basiseinkommen teilhaben.
+            Bedarfsprüfung. BAföG, Kindergeld, Renten, Kapital- und andere
+            Erwerbseinkommen werden bis zur Höhe des Basiseinkommens mit diesem
+            verrechnet. Bei Sozialleistungen, die sich am Einkommen der Person
+            bemessen (beispielsweise ALG II/SGB II, SGB XII), wird das
+            Basiseinkommen als Einkommen angerechnet. So wird sichergestellt,
+            dass auch diejenigen Menschen, die welche diese Leistungen erhalten,
+            am Basiseinkommen teilhaben.
           </p>
           <p>
             Unsere Gesellschaft lebt von der Diversität und unsere Wirtschaft
